@@ -1,8 +1,4 @@
-provider "aws" {
-  region                   = "us-east-1"
-  shared_credentials_files = ["$HOME/.aws/credentials"]
-}
-
+# Define backend to hosts the tfstate file
 terraform {
   backend "s3" {
     bucket                  = "terraform-backend-mozka"
@@ -10,4 +6,9 @@ terraform {
     region                  = "us-east-1"
     shared_credentials_file = "$HOME/.aws/credentials"
   }
+}
+
+# AWS Provider configuration
+provider "aws" {
+  region = "us-east-1" # AWS region
 }
