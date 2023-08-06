@@ -1,4 +1,4 @@
-# Project: Deploying Dockerfile on Elastic Beanstalk with Terraform
+# Deploying Dockerfile on Elastic Beanstalk with Terraform
 
 This project aims to deploy the game 2048 contained in a Dockerfile on Elastic Beanstalk using Terraform (but you can use it with any containerized app). Elastic Beanstalk is an AWS-managed application orchestration service that simplifies the deployment, scaling, and management of your applications.
 
@@ -15,6 +15,19 @@ Before getting started, make sure you have the following configured:
 1. Clone this repository to your local machine.
 2. Ensure Terraform is properly installed and configured with the correct AWS access keys.
 3. Place your application's file in at the root of the project.
+
+```
+.
+├── Dockerfile
+├── README.md
+├── eb.tf
+├── outputs.tf
+├── provider.tf
+├── random_pet.tf
+├── s3.tf
+├── terraform.tfvars
+└── variables.tf
+``````
 
 ## Usage
 
