@@ -3,7 +3,7 @@ eb_app_name = "2048-app"
 
 # Variables for aws_elastic_beanstalk_application_version
 eb_app_version_name = "2048-version"
-application = "2048-app_version"
+application = "2048-app" # must be the same value as the EB application name
 
 # Variables for aws_elastic_beanstalk_environment
 eb_env_name = "2048-env"
