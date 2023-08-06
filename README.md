@@ -14,7 +14,7 @@ Before getting started, make sure you have the following configured:
 
 1. Clone this repository to your local machine.
 2. Ensure Terraform is properly installed and configured with the correct AWS access keys.
-3. Place your application's file in at the root of the project.
+3. Place your application's file at the root of the project.
 
 ```
 .
