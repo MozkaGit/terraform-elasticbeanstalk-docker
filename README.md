@@ -59,6 +59,6 @@ Created by MozkaGit
 
 ## Acknowledgements
 
-The [code](https://github.com/gabrielecirulli/2048) for the 2048 game in this project is based on the work of (https://github.com/gabrielecirulli)[gabrielecirulli]. 
+The [code](https://github.com/gabrielecirulli/2048) for the 2048 game in this project is based on the work of [gabrielecirulli](https://github.com/gabrielecirulli). 
 
 ---
