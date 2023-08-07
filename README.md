@@ -53,9 +53,9 @@ The deployment process involves the following steps:
 
 ![2048 game](https://github.com/MozkaGit/2048-terraform-aws_eb/assets/43102748/1d156aef-e1d7-4dd2-bc2f-22ca230b5f37)
 
-## Authors
+## Cleanup
 
-Created by MozkaGit
+To avoid unnecessary charges, make sure to run `terraform destroy` in order to destroy the created resources after finishing your tests.
 
 ## Acknowledgements
 
