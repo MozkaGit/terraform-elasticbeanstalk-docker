@@ -15,3 +15,12 @@ bucket_prefix = "game-2048"
 # Variables for aws_s3_object
 key_file    = "Dockerfile"
 source_file = "Dockerfile"
+
+# Variable for aws_iam_role
+role_name = "beanstalk_role"
+
+# Variable for aws_iam_role_policy_attachment
+policy = "arn:aws:iam::aws:policy/AWSElasticBeanstalkWebTier"
+
+# Variable for aws_iam_instance_profile
+profile_name = "beanstalk_iam_instance_profile"

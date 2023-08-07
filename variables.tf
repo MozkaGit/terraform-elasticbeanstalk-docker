@@ -39,3 +39,21 @@ variable "source_file" {
   description = "Source argument value"
   default     = "NULL"
 }
+
+# Variable for aws_iam_role
+variable "role_name" {
+  description = "Name of the IAM role"
+  default     = "NULL"
+}
+
+# Variable for aws_iam_role_policy_attachment
+variable "policy" {
+  description = "Attach policy to the IAM role"
+  default     = "NULL"
+}
+
+# Variable for aws_iam_instance_profile
+variable "profile_name" {
+  description = ""
+  default     = "NULL"
+}
