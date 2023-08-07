@@ -24,7 +24,7 @@ resource "aws_elastic_beanstalk_environment" "env-2048" {
 
   setting {
     namespace = "aws:autoscaling:launchconfiguration"
-    name = "IamInstanceProfile"
-    value = "aws-elasticbeanstalk-ec2-role"
+    name      = "IamInstanceProfile"
+    value     = "aws-elasticbeanstalk-ec2-role"
   }
 }
