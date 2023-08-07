@@ -2,6 +2,8 @@
 
 This project aims to deploy the game 2048 contained in a Dockerfile on Elastic Beanstalk using Terraform (but you can use it with any containerized app). Elastic Beanstalk is an AWS-managed application orchestration service that simplifies the deployment, scaling, and management of your applications.
 
+![Architecture diagram](https://github.com/MozkaGit/terraform-elasticbeanstalk-docker/assets/43102748/68a78365-0c37-466a-977a-8e424f001434)
+
 ## Prerequisites
 
 Before getting started, make sure you have the following configured:
