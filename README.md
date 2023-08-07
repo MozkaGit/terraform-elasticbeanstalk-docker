@@ -2,18 +2,27 @@
 
 This project aims to deploy the game 2048 contained in a Dockerfile on Elastic Beanstalk using Terraform (but you can use it with any containerized app). Elastic Beanstalk is an AWS-managed application orchestration service that simplifies the deployment, scaling, and management of your applications.
 
-## Project Configuration
+## Prerequisites
 
 Before getting started, make sure you have the following configured:
 
 - An AWS account with access keys and permissions to deploy resources.
 - Terraform installed locally on your development machine.
+- AWS CLI in order to configure credentials.
 - Your Docker application's file (Dockerfile, docker-compose.yml or Dockerrun.aws.json) containing all the dependencies and configurations required for running the application.
+
+## AWS Configuration
+
+Make sure you have correctly configured AWS credentials on your machine.
+
+```
+aws configure
+```
 
 ## Installation
 
 1. Clone this repository to your local machine.
-2. Ensure Terraform is properly installed and configured with the correct AWS access keys.
+2. Navigate to the project directory.
 3. Place your application's file at the root of the project.
 
 ```
