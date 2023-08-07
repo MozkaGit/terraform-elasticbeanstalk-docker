@@ -54,6 +54,6 @@ variable "policy" {
 
 # Variable for aws_iam_instance_profile
 variable "profile_name" {
-  description = ""
+  description = "Name of the IAM instance profile"
   default     = "NULL"
 }
