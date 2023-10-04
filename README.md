@@ -1,4 +1,4 @@
-# Deploying Dockerfile on Elastic Beanstalk with Terraform
+# Deploying Dockerfile on Elastic Beanstalk with Terraform<br>[![Deploy](https://github.com/MozkaGit/terraform-elasticbeanstalk-docker/actions/workflows/deploy.yml/badge.svg)](https://github.com/MozkaGit/terraform-elasticbeanstalk-docker/actions/workflows/deploy.yml)
 
 This project aims to deploy the game 2048 contained in a Dockerfile on Elastic Beanstalk using Terraform (but you can use it with any containerized app). Elastic Beanstalk is an AWS-managed application orchestration service that simplifies the deployment, scaling, and management of your applications.
 
