@@ -7,7 +7,7 @@ application         = "2048-app" # must be the same value as the EB application 
 
 # Variables for aws_elastic_beanstalk_environment
 eb_env_name = "2048-env"
-platform    = "64bit Amazon Linux 2023 v4.0.0 running Docker"
+platform    = "64bit Amazon Linux 2023 v4.0.1 running Docker"
 
 # Variable for aws_S3_bucket
 bucket_prefix = "game-2048"
